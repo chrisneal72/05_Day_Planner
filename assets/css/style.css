@@ -41,6 +41,7 @@ body{
     text-align: right;
     margin-top: 2px;
     padding: 5px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .time-div-first{
@@ -52,6 +53,7 @@ body{
     margin-top: 2px;
     padding: 5px;
     border-radius: 10px 0px 0px 0px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .time-div-last{
@@ -63,12 +65,14 @@ body{
     margin-top: 2px;
     padding: 5px;
     border-radius: 0px 0px 0px 10px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .activity-div{
     background: #a8b1b4;
     margin:2px 00 0;
     padding: 0px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .save-div{
@@ -78,6 +82,7 @@ body{
     text-align: center;
     margin-top: 2px;
     border-radius: 0 10px 10px 0;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .text-area {
