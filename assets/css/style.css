@@ -16,7 +16,7 @@ body{
 
 .header-div {
     background: #00338d;
-    color: #fff;
+    color: #a8b1b4;
     text-align: center;
     border: 3px solid #002244;
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -42,6 +42,7 @@ body{
     margin-top: 2px;
     padding: 5px;
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 10;
 }
 
 .time-div-first{
@@ -54,6 +55,7 @@ body{
     padding: 5px;
     border-radius: 10px 0px 0px 0px;
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 10;
 }
 
 .time-div-last{
@@ -66,6 +68,7 @@ body{
     padding: 5px;
     border-radius: 0px 0px 0px 10px;
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 10;
 }
 
 .activity-div{
@@ -73,6 +76,7 @@ body{
     margin:2px 00 0;
     padding: 0px;
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 9;
 }
 
 .save-div{
@@ -83,6 +87,7 @@ body{
     margin-top: 2px;
     border-radius: 0 10px 10px 0;
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 10;
 }
 
 .text-area {
