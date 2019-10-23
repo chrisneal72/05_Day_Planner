@@ -43,6 +43,28 @@ body{
     padding: 5px;
 }
 
+.time-div-first{
+    background: #fff;
+    border-right: 2px solid #002244;
+    height: 50px;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.time-div-last{
+    background: #fff;
+    border-right: 2px solid #002244;
+    height: 50px;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 0px 0px 0px 10px;
+}
+
 .activity-div{
     background: #a8b1b4;
     margin:2px 00 0;
