@@ -23,7 +23,9 @@ function buildPage(){
 }
 
 function runSave(index){
-    console.log()
     localStorage.setItem("text-area-" + index, JSON.stringify($("#text-area-" + index).val()));
 }
-buildPage();
+
+$(document).ready(function () {
+    buildPage();
+})
