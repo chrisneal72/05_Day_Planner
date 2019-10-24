@@ -2,7 +2,7 @@ function buildPage(){
     $("#header-date").text(moment().format("dddd, MMMM Do"));
     var hourOfDay = moment().format("HH");
     var $textAreas = $(".text-area");
-    jQuery.each($textAreas, function(index) {
+    jQuery.each($textAreas, function() {
         var currentTimeNum = $(this)[0].name;
         var $currentTextarea = $("#" + $(this)[0].id);
         $("#row" + currentTimeNum).on("click", function (evt){
