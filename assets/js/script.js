@@ -7,7 +7,7 @@ function buildPage(){
         var $currentTextarea = $("#" + $(this)[0].id);
         $("#row" + currentTimeNum).on("click", function (evt){
             if (evt.target.matches("#save" + currentTimeNum) || evt.target.matches("img")){
-                runSave(currentTimeNum);
+                localStorage.setItem("text-area-" + currentTimeNum, JSON.stringify($("#text-area-" + currentTimeNum).val()));
             }
         });
         $currentTextarea.val(JSON.parse(localStorage.getItem("text-area-" + currentTimeNum)));
@@ -20,10 +20,6 @@ function buildPage(){
             $currentTextarea.removeClass("text-area");
         }
     });
-}
-
-function runSave(index){
-    localStorage.setItem("text-area-" + index, JSON.stringify($("#text-area-" + index).val()));
 }
 
 $(document).ready(function () {
