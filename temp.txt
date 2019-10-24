@@ -1,0 +1,1 @@
+GET /locations/v1/cities/geoposition/search?apikey=4qX4o6RQhLwCfd0vkc2S0UYTN2Zfo76b&q=33.478704%2C%20-111.907543&language=en-us&details=true&toplevel=false HTTP/1.1
