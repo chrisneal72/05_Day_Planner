@@ -17,10 +17,14 @@ Each line saves independantly. What is typed in for 9am is only saved if the but
 - [Moment.js](https://momentjs.com/) - Time/Date JS
 ​
 ### Screenshots
-​
+​Phone
 ![Image](assets/images/phone.jpg)
+​​
+iPad
+![Image](assets/images/ipad.jpg)
 ​
-![Image](assets/images/browser.jpg)
+Desktp
+![Image](assets/images/desktop.jpg)
 ​
 ### Link
 Check it out! 
